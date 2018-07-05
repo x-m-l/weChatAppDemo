@@ -1,6 +1,12 @@
 /**app.wxss**/
+Page{
+  width:100%;
+  box-sizing: border-box;
+  background:#F0EFF5;
+}
 .container {
   height: 100%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;

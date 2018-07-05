@@ -1,7 +1,9 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/sellProduct/sellProduct",
+    "pages/productCategory/productCategory",
+    "pages/scan/scan"
   ],
   "window":{
     "backgroundTextStyle":"light",
