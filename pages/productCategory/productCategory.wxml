@@ -1,0 +1,49 @@
+<!--pages/productCategory/productCategory.wxml-->
+ <navigator url="../sellProduct/sellProduct" class="wid">
+ <view class="item_container">
+    <view class="item_p">
+      <view class="item_img item_img72"><image src="../image/yuhe.png" style="width:72px;height:72px"></image></view>
+      <view class="item_content">
+        <text class="">愈合</text>
+        <p class="item_over item_font12 item_color">感受大自然的力量</p>
+        <button class="item_button item_font12 item_color" catchtap="showModel">产品价格</button>
+      </view>
+      <view class="item_link"></view>
+    </view>   
+  </view>
+</navigator>
+
+   <view class="popup" wx:if="{{flag}}">
+      <view class="bottom">
+        <view class="popup_title">
+          <view class="popup_title_content">服务价目表</view>
+          <view class="popup_title_x" bindtap="closeModel">x</view>
+        </view>
+        <view class="popup_content">
+          <view class="item_container" v-for="item in serviceOptionItems.serviceOptionItemsList">
+            <view class="item_p item_nomargin">
+              <view class="item_img item_img62"><image src="../image/popup.png" style="width:62px;height:62px"></image></view>
+              <view class="item_content">
+                <p class="item_over popup_color3">吴亦凡</p>
+                <p class="popup_color8">累计销售 854144 份</p>
+              </view>
+              <view class="item_price">666 元</view>
+            </view>
+          </view>
+        </view>
+
+         <view class="popup_content">
+          <view class="item_container" v-for="item in serviceOptionItems.serviceOptionItemsList">
+            <view class="item_p item_nomargin">
+              <view class="item_img item_img62"><image src="../image/popup.png" style="width:62px;height:62px"></image></view>
+              <view class="item_content">
+                <p class="item_over popup_color3">吴亦凡</p>
+                <p class="popup_color8">累计销售 854144 份</p>
+              </view>
+              <view class="item_price">666 元</view>
+            </view>
+          </view>
+        </view>
+        
+        </view>
+    </view> 

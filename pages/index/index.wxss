@@ -1,4 +1,8 @@
 /**index.wxss**/
+Page{
+  width:100%;
+  box-sizing: border-box;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -18,6 +22,7 @@
 
 .usermotto {
   margin-top: 200rpx;
+<<<<<<< HEAD
 }
 .msg {
   margin-top: 20rpx;

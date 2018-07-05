@@ -1,5 +1,8 @@
 <!--index.wxml-->
 <view class="container">
+<!-- <web-view src="https://vue.fusion.tst.zanservice.com/"></web-view>   -->
+<view class="container" style="width:100%">
+<navigator url="../productCategory/productCategory"  open-type="redirect" >
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
@@ -11,4 +14,9 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+</view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  </navigator>
 </view>

@@ -1,0 +1,60 @@
+/* pages/scan/scan.wxss */
+  .w_50 {
+    width: 50%;
+    margin: auto;
+  }
+
+  .mt_15 {
+    margin-top: 15px;
+  }
+
+  .qrCode {
+    background: #fff;
+  }
+
+  .qrCode p {
+    color: #888;
+    font-size: 14px;
+    line-height: 1.5rem;
+    padding: 15px 15px 0;
+    text-indent: 28px;
+  }
+
+  .qrCode .img {
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+  }
+
+  .qrCode .img image {
+    width: 100%;
+    text-align: center;
+  }
+
+  .popup_title {
+    background: #26a2ff;
+    font-size: 14px;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #f4f3f3;
+    display: table;
+    box-sizing: border-box;
+    table-layout: auto;
+    position: relative;
+  }
+
+  .popup_title_content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .popup_title_x {
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    top: 14px;
+    right: 20px;
+  }

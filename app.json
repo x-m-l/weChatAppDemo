@@ -3,7 +3,12 @@
     "pages/order_fill/order_fill/order_fill",
     "pages/index/index",
     "pages/order_fill/category/category",
-    "pages/order_fill/brand/brand"
+    "pages/order_fill/brand/brand",
+    "pages/sellProduct/sellProduct",
+    "pages/productCategory/productCategory",
+    "pages/scan/scan",
+    "pages/pay/cashier/cashier",
+    "pages/pay/wechat/wechat"
   ],
   "window": {
     "backgroundTextStyle": "light",
