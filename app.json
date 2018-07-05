@@ -1,14 +1,17 @@
 {
-  "pages":[
+  "pages": [
+    "pages/pay/pay_list",
     "pages/index/index",
     "pages/sellProduct/sellProduct",
     "pages/productCategory/productCategory",
-    "pages/scan/scan"
+    "pages/scan/scan",
+    "pages/pay/cashier/cashier",
+    "pages/pay/wechat/wechat"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "Zan",
+    "navigationBarTextStyle": "black"
   }
 }

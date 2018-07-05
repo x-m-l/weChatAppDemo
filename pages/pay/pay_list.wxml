@@ -1,0 +1,22 @@
+<!--pages/pay/pay_list.wxml-->
+<view class='pay_list'>
+<view class='pay-title'>请选择支付方式</view>
+
+<button class='button' type="primary" size="{{primarySize}}" loading="{{buttonLoading}}"
+  disabled="{{buttonDisabled}}" bindtap="primary" bindtap='postPayment'>
+  {{buttonText}}
+</button>
+
+<view class='box' wx:for="{{items}}" wx:key="item.id">
+  <view class='item_view' data-id='{{item.id}}' bindtap="choosePayType">
+    <view class='flex1'><image mode='scaleToFill' src="{{item.src}}" class="slide-image"/></view>
+    <view class='item_text'>
+      <view>{{item.text}}</view>
+      <view class='item_msg'>{{item.msg}}</view>
+    </view>
+    <view>
+      <view class="{{item.text == buttonText?'right active':'right'}}"></view>
+    </view>
+  </view>
+</view>
+</view>

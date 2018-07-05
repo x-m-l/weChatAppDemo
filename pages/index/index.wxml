@@ -1,4 +1,5 @@
 <!--index.wxml-->
+<!-- <web-view src="https://vue.fusion.tst.zanservice.com/"></web-view>   -->
 <view class="container" style="width:100%">
 <navigator url="../productCategory/productCategory"  open-type="redirect" >
   <view class="userinfo">
