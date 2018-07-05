@@ -1,12 +1,14 @@
 {
-  "pages":[
+  "pages": [
+    "pages/order_fill/order_fill/order_fill",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/order_fill/category/category",
+    "pages/order_fill/brand/brand"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#111",
+    "navigationBarTitleText": "众安保修",
+    "navigationBarTextStyle": "fff"
   }
 }

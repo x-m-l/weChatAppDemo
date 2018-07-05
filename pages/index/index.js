@@ -4,10 +4,11 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '小程序练习',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    message: '微微一笑很倾城'
   },
   //事件处理函数
   bindViewTap: function() {
@@ -15,6 +16,7 @@ Page({
       url: '../logs/logs'
     })
   },
+  // 生命周期函数--监听页面加载
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
