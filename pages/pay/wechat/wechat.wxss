@@ -1,4 +1,77 @@
-image {
-  width: 40px;
-  height: 40px;
+.box {
+  background: #1bac19;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0 40px;
+  margin-top: 20px;
+}
+.first {
+  line-height: 40px;
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.flex1 {
+  margin-left: 10px;
+}
+
+.weixin{
+  width: 80rpx;
+}
+
+.weixinzhifu {
+  text-align: left;
+  flex: 1;
+  font-weight: bold;
+  font-size: 44rpx;
+  vertical-align: middle;
+  margin-left: 10px;
+  letter-spacing: 3px;
+}
+
+.second {
+  background: #fff;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.erweima {
+  width: 100%;
+}
+
+.icon {
+  position: absolute;
+  top: 31%;
+  left: 35%;
+  width: 50px;
+  height: 50px;
+}
+
+.saomafukuan {
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.dec {
+  background: #fff;
+  padding: 0 15px;
+  font-size: 12px;
+  line-height: 40px;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.dec_title {
+  flex: 1;
+}
+
+.dec_text {
+  color: #888;
 }

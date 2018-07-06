@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/pay/wechat/wechat",
     "pages/index/index",
     "pages/q/q",
     "pages/order_fill/order_fill/order_fill",
@@ -9,8 +10,7 @@
     "pages/product/sellProduct/sellProduct",
     "pages/product/productCategory/productCategory",
     "pages/product/scan/scan",
-    "pages/pay/cashier/cashier",
-    "pages/pay/wechat/wechat"
+    "pages/pay/cashier/cashier"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,9 +1,20 @@
-<image src="../../../utils/wechat.png" />
-<text>微信支付</text>
-<image src=""/>
-<image src="../../../utils/￥.png"/>
-<view>扫码付款</view>
-<text>订单编号</text>
-<text>NE63589844</text>
-<text>金额</text>
-<text>￥0.03</text>
+<view class='box'>
+  <view class='first'>
+    <view class='flex1'><image mode='widthFix' class='weixin' src="../../../utils/wechat.png" /></view>
+    <view class='weixinzhifu'>微信支付</view>
+  </view>
+  <view class='second'>
+    <image class='erweima' mode='widthFix' src="../../image/erweima.jpg"/>
+    <image class='icon' src="../../../utils/￥.png"/>
+    <view class='saomafukuan'>扫码付款</view>
+  </view>
+</view>
+<view class='dec'>
+  <text class='dec_title'>订单编号</text>
+  <text class='dec_text'>NE63589844</text>
+</view>
+
+<view class='dec'>
+  <text class='dec_title'>应付金额</text>
+  <text class='dec_text'>￥0.03元</text>
+</view>
