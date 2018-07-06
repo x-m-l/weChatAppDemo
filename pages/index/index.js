@@ -5,7 +5,10 @@ const app = getApp()
 Page({
   data: {
     motto: '小程序练习',
-    userInfo: {},
+    userinfo: {
+      nickName:'niki',
+      avatarUrl:'../image/Kris.jpg'
+    },
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     message: '微微一笑很倾城'
