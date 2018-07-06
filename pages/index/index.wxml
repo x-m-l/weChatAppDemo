@@ -5,17 +5,8 @@
     <button class='wepay' bindtap='goBaidu'>点击跳转</button>
 </view>
  
-<navigator url="../productCategory/productCategory"  open-type="redirect" >
-<view class="container" style="width:100%">
 <navigator url="../product/productCategory/productCategory"  open-type="redirect" >
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userinfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userinfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="msg">{{message}}</view>
+    
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
