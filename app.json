@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/pay/pay_list",
     "pages/index/index",
+    "pages/pay/pay_list",
     "pages/sellProduct/sellProduct",
     "pages/productCategory/productCategory",
     "pages/scan/scan",

@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8193cd3-3823-4375-8232-420f5c807ea9" name="Default" comment="qian">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pay/cashier/cashier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pay/cashier/cashier.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pay/cashier/cashier.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pay/cashier/cashier.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pay/pay_list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pay/pay_list.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pay/pay_list.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pay/pay_list.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pay/wechat/wechat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pay/wechat/wechat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pay/wechat/wechat.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pay/wechat/wechat.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/alipay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/cashier.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/wechat_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/sellProduct/sellProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sellProduct/sellProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/sellProduct/sellProduct.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sellProduct/sellProduct.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/sellProduct/sellProduct.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sellProduct/sellProduct.wxss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -85,10 +68,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2367" />
-    <option name="y" value="187" />
-    <option name="width" value="1920" />
-    <option name="height" value="1040" />
+    <option name="x" value="2506" />
+    <option name="y" value="210" />
+    <option name="width" value="1538" />
+    <option name="height" value="630" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -157,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530782558771</updated>
-      <workItem from="1530782560294" duration="323000" />
+      <workItem from="1530782560294" duration="1515000" />
     </task>
     <task id="LOCAL-00001" summary="qian">
       <created>1530782585068</created>
@@ -177,11 +160,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="323000" />
+    <option name="totallyTimeSpent" value="1515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="2062" height="1126" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497532" />
       <window_info anchor="bottom" id="TODO" order="6" />

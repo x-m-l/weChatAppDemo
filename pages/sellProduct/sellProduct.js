@@ -5,7 +5,11 @@ Page({
    * 页面的初始数据
    */
   data: {
-    flag:false
+    flag:false,
+    serviceList:[
+      { id: '1', name: '吴亦凡', sale: '22417', unitPrice: '645' },
+      { id: '2', name: 'kris', sale: '8746', unitPrice: '487' }
+      ]
   },
 
   /**
@@ -69,7 +73,6 @@ Page({
     })
   },
   bindDateChange: function (e) {
-    console.log('picker发送选择改变，携带值为', e.detail.value)
     this.setData({
       date: e.detail.value
     })
