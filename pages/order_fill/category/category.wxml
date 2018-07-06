@@ -1,0 +1,6 @@
+<!--pages/order_fill/category/category.wxml-->
+<radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{categoryList}}" wx:key="categoryList.id">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>

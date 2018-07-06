@@ -1,0 +1,41 @@
+/* pages/order_fill/order_fill.wxss */
+page {
+  background: #F0EFF5
+}
+.order-fill{
+  font-size: 30rpx;
+}
+.order-fill .section{
+  margin-top: 15px;
+  background: #fff;
+}
+.order-fill .section .input-list{
+  position: relative;
+  line-height:40px;
+  padding:0 15px;
+}
+.input-list::before{
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 1px;
+  border-top: 1px solid #e5e5e5;
+  color: #e5e5e5;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  left: 15px;
+  z-index: 2;
+}
+.order-fill .section input {
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+}
+.order-fill .section text{
+  display: inherit;
+  float: left;
+  width: 100px;
+}

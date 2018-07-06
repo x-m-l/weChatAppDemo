@@ -1,6 +1,9 @@
 {
   "pages": [
+    "pages/order_fill/order_fill/order_fill",
     "pages/index/index",
+    "pages/order_fill/category/category",
+    "pages/order_fill/brand/brand",
     "pages/pay/pay_list",
     "pages/sellProduct/sellProduct",
     "pages/productCategory/productCategory",

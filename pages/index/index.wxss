@@ -22,4 +22,8 @@ Page{
 
 .usermotto {
   margin-top: 200rpx;
+<<<<<<< HEAD
+}
+.msg {
+  margin-top: 20rpx;
 }

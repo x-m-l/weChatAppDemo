@@ -1,4 +1,5 @@
 <!--index.wxml-->
+<view class="container">
 <!-- <web-view src="https://vue.fusion.tst.zanservice.com/"></web-view>   -->
 <view class="container" style="width:100%">
 <navigator url="../productCategory/productCategory"  open-type="redirect" >
@@ -9,6 +10,11 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
+  <view class="msg">{{message}}</view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
