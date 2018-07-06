@@ -5,7 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    serviceList: [
+      { id: '1', name: '吴亦凡', sale: '22417', unitPrice: '645' },
+      { id: '2', name: 'kris', sale: '8746', unitPrice: '487' }
+    ]
   },
 
   /**

@@ -1,11 +1,30 @@
-// pages/sellProduct/sellProduct.js
+// pages/order_fill/category/category.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    flag:false
+    categoryList: [
+      { name: 'CHN', value: '中国' },
+      { name: 'USA', value: '美国' },
+      { name: 'BRA', value: '巴西' },
+      { name: 'JPN', value: '日本' },
+      { name: 'ENG', value: '英国' },
+      { name: 'TUR', value: '法国' },
+    ]
+  },
+  radioChange: function (e) {
+    if(e){
+      var category = this.data.categoryList.find(function(item){
+        return item.name === e.detail.value
+      })
+      wx.setStorageSync('category', category.value);
+      wx.navigateBack();
+      // wx.navigateTo({
+      //   url: '../order_fill/order_fill'
+      // })
+    }
   },
 
   /**
@@ -62,34 +81,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  clickDate:function(){
-    this.setData({
-      flag : true
-    })
-  },
-  bindDateChange: function (e) {
-    console.log('picker发送选择改变，携带值为', e.detail.value)
-    this.setData({
-      date: e.detail.value
-    })
-  },
-  bindDate: function (e){
-    if(e!==''){
-      this.setData({
-        flagDate:true
-      })
-    }else{
-      flagDate:false
-    }
-  },
-  bindMoney: function(e){
-    if (e !== '') {
-      this.setData({
-        flagMoney: true
-      })
-    } else {
-      flagMoney: false
-    }
   }
 })

@@ -1,0 +1,51 @@
+<!--pages/order_fill/order_fill.wxml-->
+<view class='order-fill'>
+  <view class="section">
+    <view class='input-list'>
+      <text>姓名</text>
+      <input placeholder="请输入客户姓名" value="{{order.name}}"/>
+    </view>
+    <view class='input-list'>
+      <text>手机</text>
+      <input placeholder="请输入客户手机号码" maxlength="11"/>
+    </view>
+  </view>
+  <view class="section">
+    <view class='input-list'>
+      <text>品类</text>
+      <input placeholder="请选择品类" bindtap="bindbrand" value="{{order.category}}"/>
+    </view>
+    <view class='input-list'>
+      <text>品牌</text>
+      <input placeholder="请选择品牌"/>
+    </view>
+    <view class='input-list'>
+      <text>备注</text>
+      <input placeholder="备注可为空"/>
+    </view>
+    <view class='input-list'>
+      <text>省</text>
+      <input placeholder="请选择省"/>
+    </view>
+    <view class='input-list'>
+      <text>市</text>
+      <input placeholder="请选择市"/>
+    </view>
+    <view class='input-list'>
+      <text>县</text>
+      <input placeholder="请选择县"/>
+    </view>
+    <view class='input-list'>
+      <text>详细地址</text>
+      <input placeholder="请输入详细地址"/>
+    </view>
+    <view class='input-list'>
+      <text>购机时间</text>
+      <input placeholder="请选择购机时间"/>
+    </view>
+    <view class='input-list'>
+      <text>电视</text>
+      <input placeholder="请输入详细地址" value='198元'/>
+    </view>
+  </view>
+</view>

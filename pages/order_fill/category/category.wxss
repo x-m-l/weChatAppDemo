@@ -1,0 +1,10 @@
+/* pages/order_fill/category/category.wxss */
+.radio-group{
+  padding: 0 15px;
+}
+.radio-group .radio{
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+  font-size: 14px
+}

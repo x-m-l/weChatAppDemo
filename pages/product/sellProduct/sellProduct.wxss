@@ -1,0 +1,241 @@
+/* pages/sellProduct/sellProduct.wxss */
+Page{
+  background:#F0EFF5
+}
+.white-input{
+  background:white;
+  margin-bottom:10px;
+  height:50px;
+  line-height: 50px;
+  font-size: 14px;
+  padding-left:100px;
+  position: relative
+}
+.input-1::after{
+  position: absolute;
+  padding-left:20px;
+  left: 0;
+  top: 0;
+  content: "购机日期"
+}
+.input-2::after{
+  position: absolute;
+  padding-left:20px;
+  left: 0;
+  top: 0;
+  content: "购机价格"
+}
+/*自己的  */
+
+  .popup_color3 {
+    color: #333;
+  }
+
+  .popup_color8 {
+    color: #888;
+  }
+
+  .item_container:not(:last-child)::after {
+    content: " ";
+    display: block;
+    width: calc(100% - 15px);
+    margin-left: 15px;
+    height: 1px;
+    transform-origin: 0 0;
+    transform: scaleY(0.5);
+    background: #e5e5e5;
+  }
+  
+
+  .item_img {
+    display: table-cell;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    text-align: center;
+    width: 62px;
+    height: 62px;
+  }
+  .item_content {
+    margin-left: 15px;
+    line-height: 2;
+    width:80%;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+  }
+
+  .item_price {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    width: 25%;
+    
+    margin-top: 20px;
+    font-size:14px;
+    color:#333;
+  }
+ 
+
+  .item_link::after {
+    border: solid 2px #c8c8cd;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    content: " ";
+    top: 50%;
+    right: 50%;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  .item_link {
+    display: table-cell;
+    position: relative;
+    width: 25px;
+  }
+
+  .item_link::after {
+    border: solid 2px #c8c8cd;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    content: " ";
+    top: 50%;
+    right: 50%;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+/*底下  */
+  .sell-tips {
+    padding: 10px;
+    text-align: center;
+    margin: 10%;
+    background: #f9f9f9;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .m_t15 {
+    margin-top: 15px;
+  }
+
+  .m_t {
+    margin-top: 40px;
+    height: calc(100vh - 42px);
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  .popup_title{
+    background: white;
+    display: flex;
+    font-size:16px;
+    color:#333;
+    justify-content:space-between;
+  }
+  .popup_color3 {
+    color: #333;
+  }
+
+  .popup_color8 {
+    color: #888;
+  }
+  .popup_content{
+    border-bottom:1px solid #f4f3f3;
+  }
+  .popup_title_content{
+    font-size:14px;
+    width:100%;
+    text-align: center;
+  }
+  .popup_title_x{
+    padding-right:20px;
+  }
+  .item_container {
+    background: #fff;
+    font-size: 12px;
+  }
+
+  .item_container:not(:last-child)::after {
+    content: " ";
+    display: block;
+    width: calc(100% - 15px);
+    margin-left: 15px;
+    height: 1px;
+    transform-origin: 0 0;
+    transform: scaleY(0.5);
+    background: #e5e5e5;
+  }
+
+  .item_p {
+    padding: 10px 0 10px 15px;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    table-layout: fixed;
+  }
+
+  .item_color {
+    color: #888;
+  }
+
+  .item_img {
+    display: table-cell;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    text-align: center;
+    width: 62px;
+    height: 62px;
+  }
+  .item_content {
+    line-height: 2;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15px;
+  }
+
+  .item_price {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    width: 25%;
+  }
+
+  .item_over {
+    width:100%;
+    display:table-cell;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .item_button {
+    background: #fff;
+    padding: 2px 4px;
+    font-size: 12px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    outline: none;
+  }
+  .item_link {
+    display: table-cell;
+    position: relative;
+    width: 25px;
+  }
+
+  .item_link::after {
+    border: solid 2px #c8c8cd;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    content: " ";
+    top: 50%;
+    right: 50%;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    transform: translateY(-50%) rotate(45deg);
+  }
