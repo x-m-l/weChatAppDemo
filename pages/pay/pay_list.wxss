@@ -1,6 +1,21 @@
-/* pages/pay/pay_list.wxss */
 page {
   background: #F0EFF5;  
+}
+
+.dec {
+  background: #fff;
+  padding: 0 15px;
+  font-size: 12px;
+  line-height: 40px;
+  display: flex;
+}
+
+.dec_title {
+  flex: 1;
+}
+
+.dec_text {
+  color: #888;
 }
 
 .button {

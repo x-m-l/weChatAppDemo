@@ -1,6 +1,10 @@
 <!--index.wxml-->
-<!-- <web-view src="https://vue.fusion.tst.zanservice.com/"></web-view>   -->
-<view class="container" style="width:100%">
+ <view class="container" style="width:100%"> 
+
+<view class='wrapper'>
+    <button class='wepay' bindtap='goBaidu'>点击跳转</button>
+</view>
+ 
 <navigator url="../productCategory/productCategory"  open-type="redirect" >
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>

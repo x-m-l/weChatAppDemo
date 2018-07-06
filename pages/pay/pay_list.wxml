@@ -1,5 +1,13 @@
-<!--pages/pay/pay_list.wxml-->
-<view class='pay_list'>
+<view class='dec'>
+  <text class='dec_title'>订单编号</text>
+  <text class='dec_text'>NE63589844</text>
+</view>
+
+<view class='dec'>
+  <text class='dec_title'>应付金额</text>
+  <text class='dec_text'>￥0.03元</text>
+</view>
+
 <view class='pay-title'>请选择支付方式</view>
 
 <button class='button' type="primary" size="{{primarySize}}" loading="{{buttonLoading}}"
@@ -18,5 +26,4 @@
       <view class="{{item.text == buttonText?'right active':'right'}}"></view>
     </view>
   </view>
-</view>
 </view>

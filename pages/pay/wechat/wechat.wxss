@@ -1,1 +1,4 @@
-/* pages/pay/wechat/wechat.wxss */
+image {
+  width: 40px;
+  height: 40px;
+}

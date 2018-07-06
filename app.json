@@ -1,12 +1,13 @@
 {
   "pages": [
+    "pages/pay/cashier/cashier",
     "pages/pay/pay_list",
     "pages/index/index",
+    "pages/pay/wechat/wechat",
     "pages/sellProduct/sellProduct",
     "pages/productCategory/productCategory",
     "pages/scan/scan",
-    "pages/pay/cashier/cashier",
-    "pages/pay/wechat/wechat"
+    "pages/q/q"
   ],
   "window": {
     "backgroundTextStyle": "light",

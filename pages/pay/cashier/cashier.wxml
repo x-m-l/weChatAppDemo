@@ -1,2 +1,17 @@
 <!--pages/pay/cashier/cashier.wxml-->
-<text>pages/pay/cashier/cashier.wxml</text>
+<view class='bg'>
+  <image src='../../../utils/cashier.jpg'></image>
+</view>
+<view class='box'>
+  <view class='dec'>
+    <text class='dec_title'>订单编号</text>
+    <text class='dec_text'>NE63589844</text>
+  </view>
+
+  <view class='dec'>
+    <text class='dec_title'>应付金额</text>
+    <text class='dec_text'>￥0.03元</text>
+  </view>
+  <input placeholder='请输入发票号或流水号'></input>
+  <button bindtap='goToPageOrderFilling'>提交</button>
+</view>

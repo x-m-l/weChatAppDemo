@@ -1,2 +1,9 @@
-<!--pages/pay/wechat/wechat.wxml-->
-<text>pages/pay/wechat/wechat.wxml</text>
+<image src="../../../utils/wechat.png" />
+<text>微信支付</text>
+<image src=""/>
+<image src="../../../utils/￥.png"/>
+<view>扫码付款</view>
+<text>订单编号</text>
+<text>NE63589844</text>
+<text>金额</text>
+<text>￥0.03</text>
