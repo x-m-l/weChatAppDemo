@@ -1,0 +1,30 @@
+<!--pages/sellProduct/sellProduct.wxml-->
+<view class="">
+    <progress percent="40" stroke-width="12" color="#3396E4"/>
+     <view class="section">
+          <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+          <view class="picker">            
+            <input placeholder="请输入购机日期" auto-focus class="white-input input-1" bindtap="clickDate" value="{{date}}"  bindblur="bindDate"/>
+          </view>
+        </picker>
+      </view>
+  <input placeholder="请输入购机价格" type="number" class="white-input input-2" bindinput="bindMoney"/>
+</view>
+
+ <navigator url="../scan/scan" class="wid">
+  <view class="item_container" wx:if="{{flagDate && flagMoney}}" >
+    <view class="popup_content"  wx:for="{{serviceList}}" wx:key="item.id">
+      <view class="item_container" v-for="item in serviceOptionItems.serviceOptionItemsList">
+        <view class="item_p item_nomargin">
+          <view class="item_img item_img62"><image src="../../image/Kris.jpg" style="width:62px;height:62px"></image></view>
+            <view class="item_content">
+                <p class="item_over popup_color3">{{item.name}}</p>
+                <p class="popup_color8">累计销售 {{item.sale}} 份</p>
+            </view>
+            <view class="item_price">{{item.unitPrice}} 元</view>
+          <view class="item_link"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</navigator>
